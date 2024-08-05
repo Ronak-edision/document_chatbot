@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import read_file, query_cohere
+from model import read_file, query_cohere
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="Document Q&A Chatbot", layout="wide")
