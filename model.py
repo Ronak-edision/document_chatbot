@@ -1,3 +1,4 @@
+!pip install cohere
 import os
 import cohere
 from dotenv import load_dotenv
