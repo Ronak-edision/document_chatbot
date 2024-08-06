@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a chatbot that can answer user queries based on the content of uploaded documents. It uses Cohere's API for natural language understanding and LangChain for processing and querying document contents. The chatbot also includes a conversational form that collects user information (Name, Phone Number, Email) when the user requests a call.
+This project implements a chatbot that can answer user queries based on the content of uploaded documents. It uses Cohere's API for natural language understanding. The chatbot also includes a conversational form that collects user information (Name, Phone Number, Email) when the user requests a call.
 
 ## Features
 
@@ -13,7 +13,6 @@ This project implements a chatbot that can answer user queries based on the cont
 ## Technologies Used
 
 - **Streamlit**: For building the web application.
-- **LangChain**: For document processing and querying.
 - **Cohere**: For generating responses based on document content.
 - **Python**: Programming language used for development.
 
@@ -22,7 +21,7 @@ This project implements a chatbot that can answer user queries based on the cont
 ### Prerequisites
 
 - Python 3.7 or later
-- `streamlit`, `langchain`, `cohere`, `PyPDF2`, `pandas` libraries
+- `streamlit`, `cohere`, `PyPDF2`, `pandas` libraries
 
 ### Installation
 
