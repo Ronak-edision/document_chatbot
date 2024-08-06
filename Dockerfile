@@ -3,8 +3,8 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY requirement.txt /app/requirement.txt
-RUN pip install requirement.txt
+COPY requirement.txt /app/requirements.txt
+RUN pip install requirements.txt
 
 COPY . /app
 
