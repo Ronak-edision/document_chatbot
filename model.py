@@ -14,7 +14,7 @@ co = cohere.Client(COHERE_API_KEY)
 def query_cohere(prompt):
     try:
         response = co.generate(
-            model='command-xlarge-nightly',  # You can use different models based on your requirements
+            model='command-xlarge-nightly', 
             prompt=prompt,
             max_tokens=150
         )
