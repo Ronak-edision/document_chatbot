@@ -37,7 +37,7 @@ if process_button:
 st.title("Document Q&A Chatbot")
 for entry in st.session_state.chat_history:
     st.write(f"**You:** {entry['query']}")
-    st.write(f"**Bot:** {entry['response']}")
+    st.write(f"**ChatBot:** {entry['response']}")
 
 # Query Handling
 query = st.text_input("Ask a question about your documents:")
