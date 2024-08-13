@@ -3,15 +3,11 @@ import cohere
 from dotenv import load_dotenv
 import streamlit as st
 
-# Load environment variables
-load_dotenv()
-
-# Set Cohere API key
-#COHERE_API_KEY = os.getenv("COHERE_API_KEY")
-#COHERE_API_KEY = "l70oO5gKSZYvnKweMohISjEIvPxK5kxjlSH1oYPU"
-
 
 COHERE_API_KEY = st.secrets["cohere"]["COHERE_API_KEY"]
+
+# for using in your one machine use your own api key
+
 
 co = cohere.Client(COHERE_API_KEY)
 
